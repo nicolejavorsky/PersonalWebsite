@@ -1,17 +1,14 @@
-
-h1{
-	text-align: center;
-	padding: 10px;
-	font-family: 'Raleway', sans-serif;
-	border: dotted white 5px;
+h1 {
+	color: #FF0099;	
 }
 
 body{
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	background:#CCCCFF;
 	padding: 50px;
-	margin: 5px;
+	margin: 10px;
 	text-align: center;
+	display: inline;
 }
 
 .ProfilePic img {
@@ -24,4 +21,9 @@ body{
 
 .Profile {
 	float: left;
+	color: #FF0099;
+	text-align: center;
+	padding: 10px;
+	border: dotted white 8px;
+	margin: 20px;
 }
