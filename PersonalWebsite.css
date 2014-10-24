@@ -1,17 +1,24 @@
 h1 {
-	color: #FF0099;	
-   -webkit-text-stroke-width: 2px;
-   -webkit-text-stroke-color: white;
-   letter-spacing: 8px;
-   font-size: 50px;
+	color: #FF66CC;	
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: white;
+	letter-spacing: 8px;
+	font-size: 50px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 0px;
 }
 
 body{
 	font-family: 'Raleway', sans-serif;
-	background:#CCCCFF;
+	background-image: url('Background.JPG');
+	background-position: right center;
+	background-repeat: repeat;
 	margin: 10px;
 	text-align: left;
 	display: inline;
+	color: white;
 }
 
 .ProfilePic img {
@@ -23,11 +30,19 @@ body{
 
 .Profile {
 	float: left;
-	color: #FF0099;
+	color: white;
 	text-align: center;
-	padding: 10px;
-	border: dotted white 8px;
-	margin: 20px;
+	border: solid white 5px;
+	margin-right: 60px;
+	margin-left: 60px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.ProfilePic {
+	margin-top: 1.5em;
+	margin: 10px;
+	float: none;
 }
 
 a:link {
@@ -35,21 +50,20 @@ a:link {
 }
 
 a:visited {
-	color: #FF0099;
-}
-
-a:hover {
 	color: white;
 }
 
+a:hover {
+	color: #FF66CC;
+}
+
 a:active {
-    color: white;
+    color: #FF66CC;
 }
 
 li{
 	display: inline-block;
-	padding-left: 10px;
-	padding-right:10px;
+	padding: 10px;
 	letter-spacing: 5px;
 	word-spacing: 15px;
 }
