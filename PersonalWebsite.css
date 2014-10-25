@@ -8,6 +8,8 @@ h1 {
 	padding-top: 0px;
 	padding-right: 10px;
 	padding-bottom: 0px;
+	position: relative;
+	bottom: 20px;
 }
 	
 body{
@@ -22,7 +24,7 @@ body{
 }
 
 .ProfilePic img {
-	height: 200px;
+	height: 300px;
     width: auto;
 	display: inline;
 	list-style: none;
@@ -32,7 +34,6 @@ body{
 	float: left;
 	color: white;
 	text-align: left;
-	border: solid white 5px;
 	margin-right: 0px;
 	margin-left: 0px;
 	margin-bottom: 0px;
@@ -49,16 +50,12 @@ body{
 }
 
 .Logo img {
-	height: 150px;
-    width: auto;
-	display: inline;
-	list-style: none;
+	height: auto;
+    width: 125px;
 }
 
 .Logo {
-	margin-top: 1.5em;
 	margin: 10px;
-	float: none;
 }
 
 a:link {
@@ -75,12 +72,12 @@ a:hover {
 }
 
 a:active {
-    color: #FF66CC;
+	color: #FF66CC;
 }
 
 .SubMenu li {
 	position: relative;
-	bottom: 40px;
+	bottom: 60px;
 }
 
 .Menu li {
@@ -90,8 +87,38 @@ a:active {
 	word-spacing: 15px;
 }
 
+.Job {
+	float: left;
+	margin: 5px;
+	padding: 25px;
+	width: 300px;
+	height: 300px;
+}
+
+.JobTitle {
+	color: white;
+	font-size: 20px;
+	float: left;
+	text-align: center;
+	padding: 15px;
+}
+
 .Text {
 	color: black;
     position: relative;
-    top: -30px;
+    top: -100px;
+    left: 60px;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding bottom: 0px;
+}
+
+.Bullets {
+	position: relative;
+	left: 5px;
+}
+
+.Bullets:hover {
+	color: white;
 }
