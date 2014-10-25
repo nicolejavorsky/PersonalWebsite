@@ -4,25 +4,25 @@ h1 {
 	-webkit-text-stroke-color: white;
 	letter-spacing: 8px;
 	font-size: 50px;
-	padding-left: 10px;
-	padding-top: 10px;
+	padding-left: 0px;
+	padding-top: 0px;
 	padding-right: 10px;
 	padding-bottom: 0px;
 }
-
+	
 body{
 	font-family: 'Raleway', sans-serif;
 	background-image: url('Background.JPG');
 	background-position: right center;
 	background-repeat: repeat;
+	background-attachment: scroll;
 	margin: 10px;
 	text-align: left;
-	display: inline;
 	color: white;
 }
 
 .ProfilePic img {
-	height: 275px;
+	height: 200px;
     width: auto;
 	display: inline;
 	list-style: none;
@@ -31,12 +31,15 @@ body{
 .Profile {
 	float: left;
 	color: white;
-	text-align: center;
+	text-align: left;
 	border: solid white 5px;
-	margin-right: 60px;
-	margin-left: 60px;
+	margin-right: 0px;
+	margin-left: 0px;
 	margin-bottom: 0px;
 	margin-top: 0px;
+    position: relative;
+    left: 50px;
+    bottom: 40px;
 }
 
 .ProfilePic {
@@ -45,8 +48,22 @@ body{
 	float: none;
 }
 
+.Logo img {
+	height: 150px;
+    width: auto;
+	display: inline;
+	list-style: none;
+}
+
+.Logo {
+	margin-top: 1.5em;
+	margin: 10px;
+	float: none;
+}
+
 a:link {
-    text-decoration: none;
+    color: white;
+    text-decoration: none
 }
 
 a:visited {
@@ -61,9 +78,20 @@ a:active {
     color: #FF66CC;
 }
 
-li{
+.SubMenu li {
+	position: relative;
+	bottom: 40px;
+}
+
+.Menu li {
 	display: inline-block;
 	padding: 10px;
 	letter-spacing: 5px;
 	word-spacing: 15px;
+}
+
+.Text {
+	color: black;
+    position: relative;
+    top: -30px;
 }
