@@ -134,3 +134,41 @@ a:active {
 	position: relative;
 	left: 20px;
 }
+
+.ArtGallery {
+    margin: 5px;
+    padding: 5px;
+    float: left;
+    text-align: center;
+}
+
+.ArtGallery img {
+	height: auto;
+    width: 275px;
+	display: inline;
+    margin: 5px;
+    border: 3px solid black;
+}
+
+.Header {
+	font-size: 20px;
+	position: relative;
+	top: -20px;
+	left: 15px;
+}
+
+.Banner {
+	font-size: 30px;
+	color: black;
+	position: relative;
+	top: -10px;
+	left: 15px;
+}
+
+.Gallery {
+	float: left;
+	margin: 2px;
+	padding: 2px;
+	width: 300px;
+	height: 300px;
+}
