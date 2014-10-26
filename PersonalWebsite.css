@@ -87,9 +87,15 @@ a:active {
 	word-spacing: 15px;
 }
 
+
+.Time {
+	text-align: center;
+	color: white;
+}
+
 .Job {
 	float: left;
-	margin: 10px;
+	margin: 5px;
 	padding: 25px;
 	width: 300px;
 	height: 300px;
@@ -100,14 +106,14 @@ a:active {
 	font-size: 20px;
 	float: left;
 	text-align: center;
-	padding: 15px;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 .Text {
 	color: black;
     position: relative;
     top: -100px;
-    left: 60px;
     padding-left: 10px;
     padding-top: 0px;
     padding-right: 10px;
@@ -117,8 +123,14 @@ a:active {
 .Bullets {
 	position: relative;
 	left: 5px;
+	text-align: left;
 }
 
 .Bullets:hover {
 	color: white;
+}
+
+.Description {
+	position: relative;
+	left: 20px;
 }
