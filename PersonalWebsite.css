@@ -16,15 +16,52 @@ h1 {
 body{
 	font-family: 'Raleway', sans-serif;
 	background-color: #66CCCC;
+	background-image: url('NicolePic3.jpg');
 	padding: 10px;
-	page-border-style: dotted;
-	page-border-width: 4px;
-	page-border-color: crimson;
 	margin: 20px;
 	text-align: left;
 	color: crimson;
 }
 
+.Wrapper {
+	background-color: #66CCCC;
+	padding: 10px;
+	margin: 10px;
+	color: crimson;
+	width: 900px;
+	height: auto;
+	border-radius: 5px;
+	border: 1px solid #66CCCC;
+	opacity: 0.9;
+    position: absolute;
+    left: 300px;
+    right: 50px;
+    top: 0px;
+    z-index: -1;
+}
+
+.HomeWrapper {
+	background-color: #66CCCC;
+	padding: 10px;
+	margin: 10px;
+	color: crimson;
+	width: 800px;
+	height: 800px;
+	border-radius: 5px;
+	border: 1px solid #66CCCC;
+	opacity: 0.5;
+    position: absolute;
+    right: 50px;
+    left: 50px;
+    top: 0px;
+    z-index: -1;
+}
+
+.LastName {
+	font-size: 32px;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: crimson;
+}
 .ProfilePic img {
 	height: 300px;
     width: auto;
@@ -81,15 +118,18 @@ a:active {
 	position: relative;
 	bottom: 60px;
 	background-color: crimson;
+	width: 180px;
+	height: 20px;
 	opacity: 0.6;
 	margin: 2px;
 }
 
 .Menu li {
-	display: inline-block;
+	display: block;
 	padding: 10px;
 	letter-spacing: 5px;
 	word-spacing: 15px;
+	text-align: justify;
 }
 
 
@@ -100,11 +140,15 @@ a:active {
 }
 
 .Job {
-	float: left;
 	margin: 5px;
 	padding: 25px;
 	width: 300px;
-	height: 300px;
+	height: auto;
+}
+
+.Group {
+	float: left;
+
 }
 
 .JobTitle {
@@ -119,8 +163,6 @@ a:active {
 
 .Text {
 	color: black;
-    position: relative;
-    top: -100px;
     padding-left: 10px;
     padding-top: 0px;
     padding-right: 10px;
