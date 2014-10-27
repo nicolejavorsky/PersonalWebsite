@@ -1,5 +1,5 @@
 h1 {
-	color: black;
+	color: white;
 	opacity: 0.65;
 	-webkit-text-stroke-width: 3px;
 	-webkit-text-stroke-color: crimson;
@@ -9,52 +9,67 @@ h1 {
 	padding-top: 0px;
 	padding-right: 10px;
 	padding-bottom: 0px;
-	position: relative;
-	bottom: 20px;
 }
 	
 body{
 	font-family: 'Raleway', sans-serif;
-	background-color: #66CCCC;
-	background-image: url('NicolePic3.jpg');
+	background-color: crimson;
+	background-image: url('NicolePic4.jpg');
+	background-repeat: no-repeat;
+	background-position: left top;
 	padding: 10px;
 	margin: 20px;
 	text-align: left;
 	color: crimson;
 }
 
-.Wrapper {
-	background-color: #66CCCC;
+.GroupOne {
+	background-color: white;
 	padding: 10px;
 	margin: 10px;
 	color: crimson;
-	width: 900px;
-	height: auto;
-	border-radius: 5px;
-	border: 1px solid #66CCCC;
-	opacity: 0.9;
-    position: absolute;
+	width: 300px;
+	height: 600px;
+	opacity: 0.8;
+	display: inline block;
+    position: relative;
     left: 300px;
-    right: 50px;
-    top: 0px;
+    right: 0px;
+    top: -450px;
+    z-index: -1;
+}
+
+.GroupTwo {
+	background-color: white;
+	padding: 10px;
+	margin: 10px;
+	color: crimson;
+	width: 300px;
+	height: 600px;
+	opacity: 0.8;
+	display: inline block;
+    position: relative;
+    left: 700px;
+    right: 0px;
+    top: -1080px;
     z-index: -1;
 }
 
 .HomeWrapper {
-	background-color: #66CCCC;
+	background-color: white;
 	padding: 10px;
 	margin: 10px;
 	color: crimson;
 	width: 800px;
 	height: 800px;
 	border-radius: 5px;
-	border: 1px solid #66CCCC;
+	border: 1px solid white;
 	opacity: 0.5;
     position: absolute;
     right: 50px;
     left: 50px;
     top: 0px;
-    z-index: -1;
+    
 }
 
 .LastName {
@@ -115,8 +130,6 @@ a:active {
 }
 
 .SubMenu li {
-	position: relative;
-	bottom: 60px;
 	background-color: crimson;
 	width: 180px;
 	height: 20px;
@@ -130,6 +143,8 @@ a:active {
 	letter-spacing: 5px;
 	word-spacing: 15px;
 	text-align: justify;
+	position: relative;
+	top: -75px;
 }
 
 
@@ -144,18 +159,14 @@ a:active {
 	padding: 25px;
 	width: 300px;
 	height: auto;
-}
-
-.Group {
-	float: left;
-
+	display: inline;
 }
 
 .JobTitle {
 	color: crimson;
 	opacity: 0.8;
 	font-size: 20px;
-	float: left;
+	float: center;
 	text-align: center;
 	padding-left: 50px;
 	padding-right: 50px;
@@ -205,7 +216,7 @@ a:active {
 	position: relative;
 	top: -20px;
 	left: 15px;
-	color: black;
+	color: crimson;
 	font-size: 20px;
 	opacity: 0.8;
 }
