@@ -1,4 +1,4 @@
-h1 {
+#FirstName {
 	color: white;
 	opacity: 0.65;
 	-webkit-text-stroke-width: 3px;
@@ -9,6 +9,20 @@ h1 {
 	padding-top: 0px;
 	padding-right: 10px;
 	padding-bottom: 0px;
+	font-size: 50px;
+}
+
+#LastName {
+	color: white;
+	opacity: 0.65;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: crimson;
+	letter-spacing: 8px;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	font-size: 32px;
 }
 	
 body{
@@ -18,7 +32,10 @@ body{
 	background-repeat: no-repeat;
 	background-position: left top;
 	padding: 10px;
-	margin: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-bottom: 100px; 
 	text-align: left;
 	color: crimson;
 }
@@ -32,11 +49,7 @@ body{
 	height: 600px;
 	opacity: 0.8;
 	display: inline block;
-    position: relative;
-    left: 300px;
-    right: 0px;
-    top: -450px;
-    z-index: -1;
+	float: left;
 }
 
 .GroupTwo {
@@ -48,11 +61,12 @@ body{
 	height: 600px;
 	opacity: 0.8;
 	display: inline block;
-    position: relative;
-    left: 700px;
-    right: 0px;
-    top: -1080px;
-    z-index: -1;
+	float: right;
+}
+
+.Groups {
+	width: 25%;
+	margin-top: 200px;
 }
 
 .HomeWrapper {
@@ -72,11 +86,6 @@ body{
     
 }
 
-.LastName {
-	font-size: 32px;
-	-webkit-text-stroke-width: 2px;
-	-webkit-text-stroke-color: crimson;
-}
 .ProfilePic img {
 	height: 300px;
     width: auto;
@@ -135,6 +144,7 @@ a:active {
 	height: 20px;
 	opacity: 0.6;
 	margin: 2px;
+	font-size: 20px;
 }
 
 .Menu li {
@@ -144,7 +154,6 @@ a:active {
 	word-spacing: 15px;
 	text-align: justify;
 	position: relative;
-	top: -75px;
 }
 
 
@@ -202,6 +211,8 @@ a:active {
     padding: 5px;
     float: left;
     text-align: center;
+    position: relative;
+    top: 100px;
 }
 
 .ArtGallery img {
@@ -214,19 +225,19 @@ a:active {
 
 .Header {
 	position: relative;
-	top: -20px;
-	left: 15px;
+	top: 100px;
 	color: crimson;
 	font-size: 20px;
 	opacity: 0.8;
+	float: right;
 }
 
 .Banner {
 	font-size: 30px;
 	position: relative;
-	top: -10px;
-	left: 15px;
+	top: 200px;
 	opacity: 0.8;
+	float: right;
 }
 
 .Gallery {
