@@ -187,14 +187,14 @@ a:active {
 	opacity: 0.8;
 	float: right;
 	width: 500px;
-	color: black;
+	color: crimson;
 }
 
 .Header {
 	position: relative;
 	bottom: 180px;
 	left: 500px;
-	color: crimson;
+	color: black;
 	font-size: 20px;
 	opacity: 0.8;
 	float: right;
