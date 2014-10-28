@@ -32,10 +32,7 @@ body{
 	background-repeat: no-repeat;
 	background-position: left top;
 	padding: 10px;
-	margin-top: 20px;
-	margin-right: 20px;
-	margin-left: 20px;
-	margin-bottom: 100px; 
+	margin: 20px; 
 	text-align: left;
 	color: crimson;
 }
@@ -50,6 +47,8 @@ body{
 	opacity: 0.8;
 	display: inline block;
 	float: left;
+	position: relative;
+	left: 100px;
 }
 
 .GroupTwo {
@@ -62,54 +61,12 @@ body{
 	opacity: 0.8;
 	display: inline block;
 	float: right;
+	position: relative;
+	right: 100px;
 }
 
 .Groups {
-	width: 25%;
 	margin-top: 200px;
-}
-
-.HomeWrapper {
-	background-color: white;
-	padding: 10px;
-	margin: 10px;
-	color: crimson;
-	width: 800px;
-	height: 800px;
-	border-radius: 5px;
-	border: 1px solid white;
-	opacity: 0.5;
-    position: absolute;
-    right: 50px;
-    left: 50px;
-    top: 0px;
-    
-}
-
-.ProfilePic img {
-	height: 300px;
-    width: auto;
-	display: inline;
-	list-style: none;
-}
-
-.Profile {
-	float: left;
-	color: crimson;
-	text-align: left;
-	margin-right: 0px;
-	margin-left: 0px;
-	margin-bottom: 0px;
-	margin-top: 0px;
-    position: relative;
-    left: 50px;
-    bottom: 40px;
-}
-
-.ProfilePic {
-	margin-top: 1.5em;
-	margin: 10px;
-	float: none;
 }
 
 .Logo img {
@@ -223,21 +180,24 @@ a:active {
     border: 3px solid black;
 }
 
+.Banner {
+	font-size: 40px;
+	position: relative;
+	bottom: 230px;
+	opacity: 0.8;
+	float: right;
+	width: 500px;
+}
+
 .Header {
 	position: relative;
-	top: 100px;
-	color: crimson;
+	bottom: 180px;
+	left: 500px;
+	color: black;
 	font-size: 20px;
 	opacity: 0.8;
 	float: right;
-}
-
-.Banner {
-	font-size: 30px;
-	position: relative;
-	top: 200px;
-	opacity: 0.8;
-	float: right;
+	width: 500px;
 }
 
 .Gallery {
