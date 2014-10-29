@@ -18,13 +18,17 @@
 	padding-right: 10px;
 	font-size: 32px;
 }
-	
+
+#sidebar {
+	width: 280px;
+	float: left;
+}
+
 body{
 	font-family: 'Raleway', sans-serif;
 	background-color: crimson;
-	background-image: url('NicolePic4.jpg');
-	background-repeat: no-repeat;
-	background-position: left top;
+    background-repeat: no-repeat;
+    background-image: url('NicolePic4.jpg');
 	padding: 10px;
 	margin: 20px; 
 	text-align: left;
@@ -104,7 +108,6 @@ a:active {
 	letter-spacing: 5px;
 	word-spacing: 15px;
 	text-align: justify;
-	position: relative;
 }
 
 
@@ -176,23 +179,25 @@ a:active {
 
 .Banner {
 	font-size: 40px;
-	position: relative;
-	bottom: 230px;
-	opacity: 0.8;
+	opacity: 0.65;
 	float: right;
 	width: 500px;
-	color: crimson;
+	color: black;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: crimson;
+	position: relative;
+	bottom: 200px;
 }
 
-.Header {
-	position: relative;
-	bottom: 180px;
-	left: 500px;
+.BannerBelow {
 	color: black;
 	font-size: 20px;
 	opacity: 0.8;
 	float: right;
 	width: 500px;
+	position: relative;
+	bottom: 150px;
+	left: 500px;
 }
 
 .Gallery {
@@ -205,8 +210,8 @@ a:active {
 
 #ContactInfo {
 	position: relative;
-	bottom: 180px;
-	left: 50px;
+	bottom: 150px;
+	left: 500px;
 	font-size: 25px;
 	opacity: 0.8;
 	float: right;

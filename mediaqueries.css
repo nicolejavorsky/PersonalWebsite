@@ -1,0 +1,68 @@
+		<link rel="stylesheet" type="text/css" href="mediaqueries.css">
+
+@media screen and (max-width: 980px) {
+
+	#pagewrap {
+		width: 95%;
+	}
+
+	#content {
+		width: 60%;
+		padding: 3% 4%;
+	}
+
+	#sidebar {
+		width: 30%;
+	}
+
+	#sidebar .widget {
+		padding: 8% 7%;
+		margin-bottom: 10px;
+	}
+
+	#image {
+		width: 100%;
+		min-height: 60%;
+	}
+
+}
+
+@media screen and (max-width: 650px) {
+
+	#content {
+		width: auto;
+		float: none;
+		margin: 20px;
+	}
+
+	#sidebar {
+		width: 100%;
+		float: none;
+		margin: 0;
+	}
+
+	#image {
+		width: 100%;
+		max-height: 60%;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+
+	html {
+		font-size-adjust: 50%;
+	}
+
+	#image {
+		max-height: 60%;
+	}
+
+	#content {
+		max-width: 480px;
+		float: none;
+		margin: 20px;
+		padding: 20px;
+	}
+
+}
