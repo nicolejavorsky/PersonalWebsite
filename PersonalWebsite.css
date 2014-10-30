@@ -19,10 +19,32 @@
 	font-size: 32px;
 }
 
+#pagewrap {
+	width: 980px;
+	margin: 0px;
+}
+
+#header {
+	height: 160px;
+}
+
+#content {
+	width: 600px;
+	position: relative;
+	top: 190px;
+	left: 50px;
+	float: right;
+}
+
 #sidebar {
 	width: 280px;
 	float: left;
 }
+
+#footer {
+	clear: both;
+}
+
 
 body{
 	font-family: 'Raleway', sans-serif;
@@ -32,7 +54,12 @@ body{
 	padding: 10px;
 	margin: 20px; 
 	text-align: left;
-	color: crimson;
+}
+
+.Groups {
+	display: inline-block;
+	position: relative;
+	top: 200px;
 }
 
 .GroupOne {
@@ -45,8 +72,6 @@ body{
 	opacity: 0.8;
 	display: inline block;
 	float: left;
-	position: relative;
-	left: 100px;
 }
 
 .GroupTwo {
@@ -59,13 +84,8 @@ body{
 	opacity: 0.8;
 	display: inline block;
 	float: right;
-	position: relative;
-	right: 100px;
 }
 
-.Groups {
-	margin-top: 200px;
-}
 
 .Logo img {
 	height: auto;
@@ -160,13 +180,17 @@ a:active {
 	left: 20px;
 }
 
+#Gallery {
+	display: inline-block;
+}
+
 .ArtGallery {
     margin: 5px;
     padding: 5px;
+    height: auto;
+    width: auto;
     float: left;
     text-align: center;
-    position: relative;
-    top: 100px;
 }
 
 .ArtGallery img {
@@ -184,9 +208,7 @@ a:active {
 	width: 500px;
 	color: black;
 	-webkit-text-stroke-width: 2px;
-	-webkit-text-stroke-color: crimson;
-	position: relative;
-	bottom: 200px;
+	-webkit-text-stroke-color: white;
 }
 
 .BannerBelow {
@@ -195,26 +217,19 @@ a:active {
 	opacity: 0.8;
 	float: right;
 	width: 500px;
-	position: relative;
-	bottom: 150px;
-	left: 500px;
-}
-
-.Gallery {
-	float: left;
-	margin: 2px;
-	padding: 2px;
-	width: 300px;
-	height: 300px;
+	background-color: white;
+	padding: 10px;
+	margin: 10px;
+	opacity: 0.8;
 }
 
 #ContactInfo {
-	position: relative;
-	bottom: 150px;
-	left: 500px;
 	font-size: 25px;
-	opacity: 0.8;
+	opacity: 0.65;
 	float: right;
 	width: 500px;
 	list-style-type: none;
+	background-color: crimson;
+	padding: 10px;
+	margin: 10px;
 }
