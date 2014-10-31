@@ -83,7 +83,7 @@ body{
 	height: 600px;
 	opacity: 0.8;
 	display: inline block;
-	float: right;
+	float: left;
 }
 
 
@@ -181,24 +181,30 @@ a:active {
 }
 
 #Gallery {
-	display: inline-block;
+	display: block;
+	margin: 0px;
+	position: absolute;
+	top: 550px;
 }
 
 .ArtGallery {
-    margin: 5px;
+    margin: 0px;
     padding: 5px;
-    height: auto;
-    width: auto;
     float: left;
-    text-align: center;
+    display: inline-block;
 }
 
 .ArtGallery img {
 	height: auto;
     width: 280px;
-	display: inline;
+	display: inline-block;
     margin: 5px;
     border: 3px solid black;
+    float: left;
+}
+
+.Piece {
+	display: block;
 }
 
 .Banner {

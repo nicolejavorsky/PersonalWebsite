@@ -78,3 +78,10 @@ img {
 	height: auto;
 	width: auto\9; /* ie8 */
 }
+
+body {
+	max-width: 100%;
+	min-width: 50%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
