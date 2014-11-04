@@ -29,10 +29,11 @@
 }
 
 #content {
-	width: 600px;
+	max-width: 575px;
+	max-height: 300px;
 	position: relative;
 	top: 190px;
-	left: 50px;
+	left: 75px;
 	float: right;
 }
 
@@ -210,9 +211,13 @@ a:active {
 .Banner {
 	font-size: 40px;
 	opacity: 0.65;
-	float: right;
-	width: 500px;
+	float: center;
 	color: black;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 0px
+	margin: 10px;
 	-webkit-text-stroke-width: 2px;
 	-webkit-text-stroke-color: white;
 }
@@ -221,8 +226,7 @@ a:active {
 	color: black;
 	font-size: 20px;
 	opacity: 0.8;
-	float: right;
-	width: 500px;
+	float: center;
 	background-color: white;
 	padding: 10px;
 	margin: 10px;
