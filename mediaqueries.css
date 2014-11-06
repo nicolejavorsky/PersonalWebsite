@@ -1,4 +1,4 @@
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1450px) {
 
 	#pagewrap {
 		width: 95%;
@@ -7,6 +7,38 @@
 	#content {
 		width: 60%;
 		padding: 3% 4%;
+		position: relative;
+	}
+
+	.SubMenu {
+		font-size: 20px;
+	}
+
+	#sidebar {
+		width: 30%;
+	}
+
+	#sidebar .widget {
+		padding: 8% 7%;
+		margin-bottom: 10px;
+	}
+
+}
+
+@media screen and (max-width: 960px) {
+
+	html {
+		font-size-adjust: 80%;
+	}
+
+	#pagewrap {
+		width: 95%;
+	}
+
+	#content {
+		width: 60%;
+		padding: 3% 4%;
+		position: relative;
 	}
 
 	#sidebar {
@@ -23,14 +55,17 @@
 		min-height: 60%;
 	}
 
-
-	#footer {
-		clear: both;
-	}	
+	.SubMenu {
+		font-size: 20px;
+	}
 
 }
 
 @media screen and (max-width: 650px) {
+
+	html {
+		font-size-adjust: 60%;
+	}
 
 	#content {
 		max-width: 480px;
@@ -40,7 +75,7 @@
 	}
 
 	#sidebar {
-		width: 100%;
+		width: 30%;
 		float: none;
 		margin: 0;
 	}

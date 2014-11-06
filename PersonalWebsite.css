@@ -1,3 +1,28 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	background-color: crimson;
+    background-repeat: no-repeat;
+    background-image: url('NicolePic4.jpg');
+	padding: 10px;
+	margin: 20px; 
+	text-align: left;
+	width: 960px;
+	margin: 0 auto;
+}
+
+#about {
+	padding: 10px;
+	float: right;
+}
+
+#experience {
+	padding: 10px;
+}
+
+#contact {
+	padding: 10px;
+}
+
 #FirstName {
 	color: white;
 	opacity: 0.65;
@@ -6,7 +31,6 @@
 	letter-spacing: 8px;
 	font-size: 50px;
 	padding-right: 10px;
-	font-size: 50px;
 }
 
 #LastName {
@@ -22,45 +46,32 @@
 #pagewrap {
 	width: 980px;
 	margin: 0px;
+	height: auto;
 }
 
 #header {
 	height: 160px;
 }
 
-#content {
-	max-width: 575px;
-	max-height: 300px;
-	position: relative;
-	top: 190px;
-	left: 75px;
-	float: right;
-}
-
 #sidebar {
 	width: 280px;
 	float: left;
+	position: fixed;
+	left: 25px;
 }
 
+#content {
+	float: right;
+	max-width: 400px;
+}
 #footer {
 	clear: both;
-}
-
-
-body{
-	font-family: 'Raleway', sans-serif;
-	background-color: crimson;
-    background-repeat: no-repeat;
-    background-image: url('NicolePic4.jpg');
-	padding: 10px;
-	margin: 20px; 
-	text-align: left;
 }
 
 .Groups {
 	display: inline-block;
 	position: relative;
-	top: 200px;
+	top: 175px;
 }
 
 .GroupOne {
@@ -84,7 +95,7 @@ body{
 	height: 600px;
 	opacity: 0.8;
 	display: inline block;
-	float: left;
+	float: right;
 }
 
 
@@ -124,11 +135,10 @@ a:active {
 }
 
 .Menu li {
-	display: block;
+	display: inline-block;
 	padding: 10px;
 	letter-spacing: 5px;
 	word-spacing: 15px;
-	text-align: justify;
 }
 
 
@@ -183,9 +193,7 @@ a:active {
 
 #Gallery {
 	display: block;
-	margin: 0px;
-	position: absolute;
-	top: 550px;
+	padding: 10px;
 }
 
 .ArtGallery {
@@ -211,7 +219,6 @@ a:active {
 .Banner {
 	font-size: 40px;
 	opacity: 0.65;
-	float: center;
 	color: black;
 	padding-left: 10px;
 	padding-top: 10px;
@@ -226,7 +233,6 @@ a:active {
 	color: black;
 	font-size: 20px;
 	opacity: 0.8;
-	float: center;
 	background-color: white;
 	padding: 10px;
 	margin: 10px;
@@ -234,7 +240,7 @@ a:active {
 }
 
 #ContactInfo {
-	font-size: 25px;
+	font-size: 30px;
 	opacity: 0.65;
 	float: right;
 	width: 500px;
