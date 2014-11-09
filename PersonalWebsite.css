@@ -23,6 +23,20 @@ body {
 #contact {
 	padding: 10px;
 	height: 100%;
+	position: relative;
+	top: 50px;
+	float: center;
+	background-color: #505050;
+	width: 100%;
+
+}
+
+#art {
+	padding: 10px;
+	height: 100%;
+	position: relative;
+	top: 50px;
+
 }
 
 #FirstName {
@@ -58,22 +72,17 @@ body {
 #sidebar {
 	width: 280px;
 	float: left;
-	position: fixed;
-	left: 25px;
 }
 
 #content {
-	float: right;
 	max-width: 400px;
-}
-#footer {
-	clear: both;
 }
 
 .Groups {
 	display: inline-block;
 	position: relative;
-	top: 175px;
+	top: 50px;
+
 }
 
 .GroupOne {
@@ -184,10 +193,6 @@ a:active {
 	text-align: left;
 }
 
-.Bullets:hover {
-	color: crimson;
-}
-
 .Description {
 	position: relative;
 	left: 20px;
@@ -214,6 +219,25 @@ a:active {
     float: left;
 }
 
+.carousel {
+ 	width: 100%;
+ 	overflow: hidden;
+}
+
+.panes {
+    list-style: none;
+    position: relative;
+    width: 900%; 
+    overflow: hidden;  
+
+}
+
+
+.panes img {
+    display: inline-block;
+    max-width: 50%;
+}
+
 .Banner {
 	font-size: 40px;
 	opacity: 0.65;
@@ -221,10 +245,11 @@ a:active {
 	padding-left: 10px;
 	padding-top: 10px;
 	padding-right: 10px;
-	padding-bottom: 0px
+	padding-bottom: 0px;
 	margin: 10px;
 	-webkit-text-stroke-width: 2px;
 	-webkit-text-stroke-color: white;
+	float: center;
 }
 
 .BannerBelow {
@@ -238,12 +263,10 @@ a:active {
 }
 
 #ContactInfo {
-	font-size: 30px;
+	font-size: 26px;
 	opacity: 0.65;
-	float: right;
 	width: 500px;
 	list-style-type: none;
-	background-color: crimson;
 	padding: 10px;
 	margin: 10px;
 }
