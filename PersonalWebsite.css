@@ -38,7 +38,7 @@ body {
 	padding: 10px;
 	height: 100%;
 	position: relative;
-	top: 50px;
+	top: 70px;
 }
 
 #FirstName {
@@ -205,6 +205,8 @@ a:active {
 	padding: 10px;
     list-style: none;
     margin-bottom: 10%;
+    position: relative;
+    bottom: 30px;
 }
 
 #ArtGallery1 {
