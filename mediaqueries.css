@@ -4,39 +4,27 @@
 		width: 95%;
 	}
 
-	#content {
-		width: 60%;
+	.content {
+		width: 70%;
 		padding: 3% 4%;
 		position: relative;
-	}
-
-	.SubMenu {
-		font-size: 20px;
 	}
 
 	#sidebar {
 		width: 30%;
 	}
 
-	#sidebar .widget {
-		padding: 8% 7%;
-		margin-bottom: 10px;
-	}
 
 }
 
 @media screen and (max-width: 960px) {
 
-	html {
-		font-size-adjust: 80%;
-	}
-
 	#pagewrap {
 		width: 95%;
 	}
 
-	#content {
-		width: 60%;
+	.content {
+		width: 70%;
 		padding: 3% 4%;
 		position: relative;
 	}
@@ -55,19 +43,12 @@
 		min-height: 60%;
 	}
 
-	.SubMenu {
-		font-size: 20px;
-	}
-
 }
 
 @media screen and (max-width: 650px) {
 
-	html {
-		font-size-adjust: 60%;
-	}
 
-	#content {
+	.content {
 		max-width: 480px;
 		float: none;
 		margin: 20px;
@@ -90,15 +71,12 @@
 
 @media screen and (max-width: 480px) {
 
-	html {
-		font-size-adjust: 50%;
-	}
 
 	#image {
 		max-height: 60%;
 	}
 
-	#content {
+	.content {
 		max-width: 480px;
 		float: none;
 		margin: 20px;
@@ -111,13 +89,13 @@
 img {
 	max-width: 100%;
 	height: auto;
-	width: auto\9; /* ie8 */
+	width: auto\9;
 }
 
 body {
 	max-width: 100%;
 	min-width: 50%;
 	height: auto;
-	width: auto\9; /* ie8 */
+	width: auto\9;
 }
 
