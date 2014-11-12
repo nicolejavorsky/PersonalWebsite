@@ -2,7 +2,7 @@ body {
 	font-family: 'Raleway', sans-serif;
 	background-color: crimson;
     background-repeat: no-repeat;
-    background-image: url('NicolePic4.jpg');
+    background-image: url('NicolePic5.jpg');
 	padding: 10px;
 	margin: 20px; 
 	text-align: left;
@@ -10,35 +10,44 @@ body {
 	margin: 0 auto;
 }
 
+section {
+	width: 100%;
+}
+
 #about {
 	padding: 10px;
 	float: right;
 	position: relative;
-	top: 30px;
+	top: 350px;
 }
 
 #experience {
 	padding: 10px;
-	height: 100%;
 }
 
 #contact {
 	padding: 10px;
 	height: 100%;
-	position: relative;
-	top: 100px;
 	float: center;
 	background-color: black;
 	opacity: 0.5;
 	background-size: 100%;
+	position: relative;
+	top: 800px;
 
 }
 
 #art {
 	padding: 10px;
-	height: 100%;
 	position: relative;
-	top: 70px;
+	top: 800px;
+
+}
+
+#top {
+	padding: 10px;
+	position: relative;
+	top: 800px;
 }
 
 #FirstName {
@@ -67,24 +76,19 @@ body {
 	height: auto;
 }
 
-#header {
-	height: 160px;
-}
-
 #sidebar {
 	width: 280px;
 	float: left;
 }
 
 .content {
-	max-width: 400px;
+	max-width: 1900px;
 }
 
-.Groups {
+#Groups {
 	display: inline-block;
 	position: relative;
-	top: 100px;
-
+	top: 600px;
 }
 
 .GroupOne {
@@ -108,7 +112,7 @@ body {
 	height: 600px;
 	opacity: 0.8;
 	display: inline block;
-	float: left;
+	float: right;
 }
 
 
@@ -138,10 +142,9 @@ a:active {
 	color: gray;
 }
 
-#SubMenu li {
+#Menu2 li {
 	background-color: crimson;
 	width: 180px;
-	height: 20px;
 	opacity: 0.6;
 	margin: 2px;
 	font-size: 20px;
