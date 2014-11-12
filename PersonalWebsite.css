@@ -16,13 +16,14 @@ section {
 
 #about {
 	padding: 10px;
-	float: right;
 	position: relative;
-	top: 350px;
+	top: 700px;
 }
 
 #experience {
 	padding: 10px;
+	position: relative;
+	top: 850px;
 }
 
 #contact {
@@ -33,21 +34,21 @@ section {
 	opacity: 0.5;
 	background-size: 100%;
 	position: relative;
-	top: 800px;
+	top: 1000px;
 
 }
 
 #art {
 	padding: 10px;
 	position: relative;
-	top: 800px;
+	top: 1200px;
 
 }
 
 #top {
 	padding: 10px;
 	position: relative;
-	top: 800px;
+	top: 1200px;
 }
 
 #FirstName {
@@ -82,16 +83,16 @@ section {
 }
 
 .content {
-	max-width: 1900px;
+	float: center;
 }
 
 #Groups {
 	display: inline-block;
-	position: relative;
+	position: static;
 	top: 600px;
 }
 
-.GroupOne {
+#GroupOne {
 	background-color: white;
 	padding: 10px;
 	margin: 10px;
@@ -103,7 +104,7 @@ section {
 	float: left;
 }
 
-.GroupTwo {
+#GroupTwo {
 	background-color: white;
 	padding: 10px;
 	margin: 10px;
@@ -260,11 +261,11 @@ a:active {
 .BannerBelow {
 	color: black;
 	font-size: 20px;
-	opacity: 0.8;
 	background-color: white;
 	padding: 10px;
 	margin: 10px;
 	opacity: 0.8;
+	width: auto;
 }
 
 #ContactInfo {
