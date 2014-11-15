@@ -10,11 +10,6 @@ body {
 	margin: 0 auto;
 }
 
-section {
-	width: 100%;
-	float: center;
-}
-
 #about {
 	padding: 10px;
 	position: relative;
@@ -72,11 +67,6 @@ section {
 	font-size: 32px;
 }
 
-#pagewrap {
-	width: 980px;
-	margin: 0px;
-	height: auto;
-}
 
 #sidebar {
 	width: 280px;
@@ -268,7 +258,8 @@ a:active {
 	padding: 10px;
 	margin: 10px;
 	opacity: 0.8;
-	width: auto;
+	width: 500px;
+	list-style-type: none;
 }
 
 #ContactInfo {
