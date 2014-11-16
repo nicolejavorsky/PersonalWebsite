@@ -10,6 +10,10 @@ body {
 	margin: 0 auto;
 }
 
+section {
+	float: left;
+}
+
 #about {
 	padding: 10px;
 	position: relative;
@@ -25,13 +29,11 @@ body {
 #contact {
 	padding: 10px;
 	height: 100%;
-	float: center;
 	background-color: black;
 	opacity: 0.5;
 	background-size: 100%;
 	position: relative;
 	top: 900px;
-
 }
 
 #art {
@@ -267,6 +269,6 @@ a:active {
 	opacity: 0.65;
 	width: 500px;
 	list-style-type: none;
-	padding: 10px;
+	padding: 20px;
 	margin: 10px;
 }
