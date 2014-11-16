@@ -1,6 +1,9 @@
 /* Extra small devices Phones ----------- */
 @media only screen (max-width: 768px) {
 
+	body {
+		background-image: url('NicolePic6.jpg');
+	}
 	#pagewrap {
 		max-width: auto;
 	}
