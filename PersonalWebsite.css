@@ -1,55 +1,57 @@
 body {
 	font-family: 'Raleway', sans-serif;
 	background-color: crimson;
-    background-repeat: no-repeat;
-    background-image: url('NicolePic5.jpg');
-	padding: 10px;
-	margin: 20px; 
 	text-align: left;
-	width: 960px;
-	margin: 0 auto;
+	margin: 0;
 }
 
 section {
-	float: left;
+	width: 800px;
+}
+
+#Nicole {
+	background-image: url('NicolePic5.jpg');
+    background-repeat: no-repeat;
+	width: 100%;
+	height: 600px;
+	background-size: 100%;	
+	position: relative;
+	margin: 0;
+	padding: 0;
 }
 
 #about {
 	padding: 10px;
 	position: relative;
-	top: 700px;
-	right: 150px;
+	left: 150px;
 }
 
 #experience {
 	padding: 10px;
 	position: relative;
-	top: 700px;
-	right: 150px;
+	left: 150px;
 }
 
 #contact {
 	padding: 10px;
 	height: 100%;
+	width: 625px;
 	background-color: black;
 	opacity: 0.5;
 	background-size: 100%;
 	position: relative;
-	top: 800px;
-	left: 150px;
+	left: 170px;
 }
 
 #art {
 	padding: 10px;
 	position: relative;
-	top: 800px;
 	left: 130px;
 }
 
 #top {
 	padding: 10px;
 	position: relative;
-	top: 900px;
 	left: 150px;
 }
 
@@ -78,7 +80,7 @@ section {
 	width: 280px;
 	float: left;
 	position: relative;
-	right: 100px;
+	z-index: 20;
 }
 
 .content {
@@ -87,8 +89,6 @@ section {
 
 #Groups {
 	display: inline-block;
-	position: static;
-	top: 600px;
 }
 
 #GroupOne {
@@ -157,6 +157,11 @@ a:active {
 	word-spacing: 15px;
 }
 
+#Menu ul {
+	float: left;
+	width: 100%;
+	height: auto;
+}
 
 .Time {
 	text-align: center;
