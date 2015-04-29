@@ -6,9 +6,9 @@ html, body {
 
 body {
 	text-align: left;
-	background-image: url('img/skulls.png');
 	font-family: 'PT Sans', sans-serif;
 	letter-spacing: 1px;
+	background-image: url('img/skulls.png');
 }
 
 #wrapper {
@@ -58,7 +58,7 @@ body {
 }
 
 #logo img {
-	width: 500px;
+	width: 120px;
 	height: auto;
 }
 
@@ -67,11 +67,12 @@ body {
 	text-align: center;
 	height: 120px;
 	background-color: white;
+	width: 100%;
 }
 
 #menu li {
-	font-family: 'Special Elite', cursive;
-	font-size: 28px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 24px;
 	display: inline;
 	letter-spacing: 3px;
 	word-spacing: 10px;
@@ -115,7 +116,7 @@ a:active {
 	font-size: 22px;
 	color: black;
 	margin: 0;
-	width: 675px;
+	width: 60%;
 	position: relative;
 	left: 375px;
 	bottom: 250px;
