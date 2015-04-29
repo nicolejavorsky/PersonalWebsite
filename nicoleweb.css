@@ -7,12 +7,13 @@ html, body {
 body {
 	text-align: left;
 	font-family: 'PT Sans', sans-serif;
-	letter-spacing: 1px;
 	background-image: url('img/skulls.png');
 }
 
 #wrapper {
 	min-height: 100%;
+	width: 100%;
+	margin: 0;
 	position: relative;
 }
 
@@ -41,7 +42,7 @@ body {
 	font-size: 16px;
 	padding: 25px;
 	text-align: center;
-	border-top: 7px solid white;
+	background-color: lightgray;
 }
 
 #footer2 {
@@ -58,36 +59,38 @@ body {
 }
 
 #logo img {
-	width: 120px;
-	height: auto;
+	height: 120px;
+	width: auto;
+	float: center;
 }
 
 #menu {
 	margin: 0;
 	text-align: center;
-	height: 120px;
+	height: 150px;
 	background-color: white;
 	width: 100%;
 }
 
 #menu li {
 	font-family: 'Oswald', sans-serif;
-	font-size: 24px;
+	font-size: 18px;
 	display: inline;
 	letter-spacing: 3px;
 	word-spacing: 10px;
 	position: relative;
-	right: 100px;
+	bottom: 25px;
 }
 
-#Menu ul {
+/*#Menu ul {
 	vertical-align: middle;
 	width: 100%;
-}
+	min-width: 500px;
+}*/
 
 a:link {
     color: gray;
-    text-decoration: none
+    text-decoration: none;
 }
 
 a:visited {
@@ -104,23 +107,24 @@ a:active {
 }
 
 #nicoleimg img {
-	width: 280px;
+	width: 300px;
 	height: auto;
+	padding: 30px;
 	position: relative;
-	left: 75px;
-	top: 35px;
+	left: 120px;
 }
 
 .text1 {
 	text-align: justify;
-	font-size: 22px;
+	font-size: 18px;
 	color: black;
 	margin: 0;
 	width: 60%;
 	position: relative;
-	left: 375px;
+	left: 420px;
 	bottom: 250px;
 	padding: 25px;
+	max-width: 600px;
 }
 
 .part2 {
