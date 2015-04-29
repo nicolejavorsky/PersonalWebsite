@@ -67,19 +67,20 @@ body {
 #menu {
 	margin: 0;
 	text-align: center;
-	height: 150px;
+	height: 120px;
 	background-color: white;
 	width: 100%;
+	font-family: 'Oswald', sans-serif;
 }
 
 #menu li {
-	font-family: 'Oswald', sans-serif;
 	font-size: 18px;
 	display: inline;
 	letter-spacing: 3px;
 	word-spacing: 10px;
 	position: relative;
 	bottom: 25px;
+	padding: 10px;
 }
 
 a:link {
@@ -189,11 +190,6 @@ a:active {
 	left: 50px;
 	bottom: 20px;
 }
-/*
-#portfolio {
-	display: inline;
-	float: center;
-}*/
 
 .wrap {
     width: 320px;
