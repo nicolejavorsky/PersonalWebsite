@@ -71,6 +71,7 @@ body {
 	background-color: white;
 	width: 100%;
 	font-family: 'Oswald', sans-serif;
+	padding: 20px;
 }
 
 #menu li {
@@ -80,7 +81,6 @@ body {
 	word-spacing: 10px;
 	position: relative;
 	bottom: 25px;
-	padding: 10px;
 }
 
 a:link {
