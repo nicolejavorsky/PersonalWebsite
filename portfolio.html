@@ -10,6 +10,8 @@
 
 	<link rel="stylesheet" type="text/css" href="nicoleweb.css">
 
+	<link rel="stylesheet" type="text/css" href="mediaqueries.css">
+
 	<link href='http://fonts.googleapis.com/css?family=PT+Sans|Special+Elite' rel='stylesheet' type='text/css'>
 </head>
 
@@ -47,16 +49,28 @@
 			</nav>
 		</div>
 
-		<div class="content1">	
+		<ul id="filters" class="clearfix">
+		    <li><span class="filter active" data-filter="app card icon logo web">All</span></li>
+		    <li><span class="filter" data-filter="app">App</span></li>
+		    <li><span class="filter" data-filter="card">Card</span></li>
+		    <li><span class="filter" data-filter="icon">Icon</span></li>
+		    <li><span class="filter" data-filter="logo">Logo</span></li>
+		    <li><span class="filter" data-filter="web">Web</span></li>
+		</ul>
 
-			<div id="nicoleimg">
-				<img src="img/nicole_img3.jpg">
-			</div>
-
-			<div class="text1">
-				I'm Nicole Javorsky, a student at Barnard College and an avid artist/coder.  I am a Student Advisory Board member at the <a href="http://athenadigitaldesign.org/">Athena Digital Design Agency</a>.  I love the intermingling of coding and creativity.  More than one cup of coffee will send me bouncing off the walls.  I started an organization called <a href="http://cubsforcoping.org/">Cubs for Coping</a>, which provides hospitals, homeless shelters, and eating disorder programs with handmade teddy bears.
-			</div>
-
+		<div id="portfoliolist">        
+		    <div class="portfolio logo" data-cat="logo">
+		        <div class="portfolio-wrapper">                
+		            <img src="img/portfolios/logo/5.jpg" alt="" />
+		            <div class="label">
+		                <div class="label-text">
+		                    <a class="text-title">Bird Document</a>
+		                    <span class="text-category">Logo</span>
+		                </div>
+		                <div class="label-bg"></div>
+		            </div>
+		        </div>
+		    </div>            
 		</div>
 
 		<div id="footer1">
