@@ -27,7 +27,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-image: url("backgroundpic.jpg");
+  background-color: #707070;
 }
 body {
   color: #fff;
@@ -161,4 +161,9 @@ body {
   .cover-container {
     width: 700px;
   }
+}
+
+.image img {
+  width: 300px;
+  text-align: center;
 }
